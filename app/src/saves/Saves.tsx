@@ -39,12 +39,9 @@ const Saves = () => {
 export default Saves;
 
 const BottomBarWrapper = styled.div`
-	height: 170px;
+	overflow: hidden;
 	width: 100%;
-	min-width: 500x;
-	padding-top: 15px;
-	bottom: 0;
-	position: absolute;
+	margin-top: 15px;
 	box-sizing: border-box;
 `;
 

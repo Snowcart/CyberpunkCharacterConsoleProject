@@ -65,6 +65,8 @@ const Title = () => {
 export default Title;
 
 const TitleBar = styled.div`
+	color: #fff;
+	text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #ff0080, 0 0 8px #ff0080, 0 0 16px #ff0080, 0 0 32px #ff0080;
 	width: 100%;
 	height: 60px;
 `;
@@ -83,7 +85,7 @@ const Heading = styled.h1`
 	font-size: 24px;
 	font-weight: normal;
 	white-space: nowrap;
-	overflow: hidden;
+	overflow: visible;
 	text-overflow: ellipsis;
 `;
 
